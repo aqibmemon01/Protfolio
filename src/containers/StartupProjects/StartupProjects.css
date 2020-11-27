@@ -1,0 +1,35 @@
+
+.heading {
+  font-size: 56px;
+  font-weight: 600;
+}
+.Promain{
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: cover;
+  padding : 10px;
+  text-align: center; 
+  margin: 20px 0 20px 0;
+}
+#ProDetail{
+  width: 100%;
+}
+.OnWork{
+  display: block;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: -20px;
+}
+
+@media (max-width: 1380px) {
+  .heading {
+      font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading {
+      font-size: 30px;
+      text-align: center;
+  }
+ }
